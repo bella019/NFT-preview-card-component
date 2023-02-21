@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body,
+  html {
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+  .nft-section {
+    height: 600px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: 500px;
+    margin-top: 25px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+  }
+  .nft-img{
+    height: 300px;
+    width: 310px;
+    /* margin-top: 50px; */
+    margin: 20px;
+    border-radius: 20px;
+  }
+  .nft-img:hover{
+    cursor: pointer;
+  }
+  .nft-header{
+    color: hsl(0, 0%, 100%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  .nft-header:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+  }
+  .nft-body {
+    color: hsl(215, 51%, 70%);
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Outfit", sans-serif;
+  }
+  .nft-body-2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  .nft-img-2 {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    font-family: "Outft", sans-serif;
+    display: flex;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .nft-body-3 {
+    margin-left: 100px;
+    color: hsl(215, 51%, 70%);
+    display: flex;
+  }
+  .nft-img-3 {
+    margin-right: 10px;
+    font-family: "Outfit", sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+  }
+  hr {
+    width: 310px;
+    border-color: hsl(215, 51%, 70%);
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .nft-body-4{
+    display: flex;
+    align-items: center;
+  }
+  .nft-profile {
+    display: flex;
+    align-items: center; 
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+  }
+  .span-1 {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: hsl(215, 51%, 70%);
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+  }
+  .span-2{
+    color:  hsl(0, 0%, 100%);
+  }
+  .span-2:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+  }
