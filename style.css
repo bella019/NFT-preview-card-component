@@ -116,3 +116,37 @@
     color: hsl(178, 100%, 50%);
     cursor: pointer;
   }
+  .attribution { 
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: center; 
+  }
+  .attribution>a { 
+    color: hsl(228, 45%, 44%); 
+    font-family: "Outfit", sans-serif;
+  }
+  .attribution>a:hover {
+    color: hsl(0, 0%, 100%);
+  }
+
+  
+
+  /***************
+   Media Query
+****************/
+
+@media all and (max-width: 375px) {
+  body,
+  html {
+      width: 380px;
+      height: 570%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .nft-section{
+      width: 335px;
+      height: 530px;
+      columns: yellow;
+  }  
+}
